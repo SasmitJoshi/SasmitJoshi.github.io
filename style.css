@@ -16,7 +16,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color:  rgb(152, 217, 239);
 }
 
 /* TRANSITION */
@@ -48,10 +48,10 @@ a {
 }
 
 a:hover {
-    color: lightblue;
+    color:  rgb(152, 217, 239);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: lightblue;
+    text-decoration-color:  rgb(152, 217, 239);
 }
 
 .logo {
@@ -183,7 +183,7 @@ section {
     text-align: center;
 }
 
-.section__text__p1 {
+.section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -191,6 +191,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    color:  rgb(152, 217, 239);
 }
 
 #socials-container {
@@ -205,3 +206,48 @@ section {
     cursor: pointer;
     height: 2rem;
 }
+
+/* BUTTONS */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+  }
+
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+  }
+
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    cursor: pointer;
+  }
+
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    background: rgb(152, 217, 239);
+    color: white;
+  }
+
+  .btn-color-2,
+  .btn-color-1 {
+    background: none;
+  }
+
+  .btn-color-2:hover,
+  .btn-color-1:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+
+  .btn-container {
+    gap: 1rem;
+  }
